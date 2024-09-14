@@ -1,0 +1,23 @@
+{
+    "nodes": [
+      {"id": "A"}, {"id": "B"}, {"id": "C"}, {"id": "D"}, {"id": "E"}
+    ],
+    "links": [
+      {"source": "A", "target": "B"},
+      {"source": "B", "target": "C"},
+      {"source": "C", "target": "D"},
+      {"source": "D", "target": "E"},
+      {"source": "E", "target": "A"}
+    ],
+    "trees": {
+      "A": [
+        {"id": "A1"}, {"id": "A2"}, {"id": "A3"}
+      ],
+      "B": [
+        {"id": "B1"}, {"id": "B2"}
+      ],
+      "C": [
+        {"id": "C1"}, {"id": "C2"}, {"id": "C3"}, {"id": "C4"}
+      ]
+    }
+  }
